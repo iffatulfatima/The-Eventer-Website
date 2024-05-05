@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Planner</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: #000;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .header {
+            background: #000;
+
+            color: #fff;
+            padding: 10px;
+        }
+
+        .header .logo img {
+            max-width: 100%;
+            height: 150px;
+        }
+
+        .a:hover {
+            color: black;
+            background-color: rgb(240, 242, 245);
+            border-radius: 10px;
+            padding: 10px;
+        }
+
+        .navbar {
+            text-align: center;
+        }
+
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        .heading_container {
+            color: rgb(161, 122, 15);
+        }
+
+        .image-container img {
+            max-width: 100%;
+            height: 400px;
+            margin-top: 120px;
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+
+        .main {
+            padding: 20px;
+        }
+
+        .contact_form {
+            padding: 20px;
+            background-color: #f2f2f2;
+        }
+
+        .contact_form input[type="text"],
+        .contact_form input[type="email"],
+        .contact_form input[type="number"],
+        .contact_form input[type="text"] {
+            width: 50%;
+            margin-bottom: 10px;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        .contact_form button {
+            width: 50%;
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .img-box img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        footer {
+            background-color: #000;
+            color: white;
+            margin-top: 20px;
+            display: flex;
+        }
+
+        .content-21 {
+            width: 25%;
+            margin: auto;
+            text-align: center;
+
+        }
+
+        .item-7 {
+            width: 50%;
+            margin: auto;
+
+        }
+
+        .content-22 {
+            width: 150px;
+            height: 150px;
+            margin: auto;
+            text-align: center;
+        }
+
+        .content-23 {
+            text-align: center;
+        }
+
+        .content-24 {
+            width: 25%;
+            text-align: center;
+            margin: auto;
+        }
+        @media (max-width:600px) {
+    .header {
+        background-color: firebrick;
+        color: black;
+
+    }
+    footer {
+        background-color: firebrick;
+        color: black;
+
+    }
+}
+    </style>
+
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="index.html" class="logo">
+            <img src="Images/logo.jfif" alt="">
+        </a>
+
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <a href="profile.html">Business Profile</a>
+            <a href="event.html">Events</a>
+            <a href="catering.html">Catering</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="image-container">
+            <img src="pics/contact-us-banner.jpg" alt="width 100%">
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="content-4">
+            <section class="contact_section">
+                <div class="container">
+                    <div class="heading_container">
+                        <h2>
+                            Let's Get In Touch!
+                        </h2>
+                    </div>
+                </div>
+                <div class="container contact_bg layout_padding2-top">
+                    <div class="row">
+                        <div class="col-md-6" style="margin-bottom: 20px;">
+                            <div class="contact_form">
+                                <form action="">
+                                    <input type="text" placeholder="Name">
+                                    <input type="email" placeholder="Email">
+                                    <input type="number" placeholder="Phone">
+                                    <input type="text" placeholder="Message" class="message_input">
+                                    <button>Send</button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-md-6" style="margin-bottom: 20px;">
+                            <div class="img-box">
+                                <img src="images/phone.webp" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- info section -->
+
+        <section class="info_section layout_padding">
+            <div class="footer_contact">
+                <div class="heading_container">
+                    <h2>
+
+                    </h2>
+                </div>
+                <!-- <div class="box social-links"> -->
+                <!-- Add font awesome icons -->
+                <!-- <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+
+                </div> -->
+            </div>
+        </section>
+        <!-- end info section -->
+
+        <!-- footer section -->
+        <section class="container-fluid footer_section">
+            <!-- Add any other footer content here if needed -->
+        </section>
+        <footer>
+            <div class="content-21">
+                <h2>About us</h2>
+                <p>Plot # 15-C, mezzanine floor, 4 3rd Zamzama Commercial Lane, Zamzama Commercial Area Defence V
+                    Karachi,
+                </p><br><br>
+                <p>info@marcem.com.pk</p><br><br>
+                <p>+92 21 35301807</p>
+
+            </div>
+            <div class="item-7">
+                <div class="content-22">
+                    <img src="Images/logo-removebg-preview.png" alt="" height="100%" width="100%">
+                </div>
+                <div class="content-23">
+                    <p>The Eventor, an innovative platform, seamlessly integrates creative design and cutting-edge
+                        technology,
+                        delivering tailored solutions to elevate brands. Their expertise fosters impactful digital
+                        experiences and visually stunning aesthetics</p>
+                </div>
+
+            </div>
+            <div class="content-24">
+                <h2>Quick Links</h2>
+                <a href="index.html">HOME</a><br>
+                <a href="catering.html">CATERING</a><br>
+                <a href="contact.html">CONTACT</a><br>
+            </div>
+
+
+        </footer>
+        <!-- footer section -->
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Planner</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <style>
+        /* Popup container */
+        .popup {
+            display: none;
+            /* Hidden by default */
+            position: fixed;
+            /* Stay in place */
+            z-index: 1;
+            /* Sit on top */
+            left: 0;
+            top: 0;
+            width: 100%;
+            /* Full width */
+            height: 100%;
+            /* Full height */
+            overflow: auto;
+            /* Enable scroll if needed */
+            background-color: rgba(0, 0, 0, 0.4);
+            /* Black w/ opacity */
+        }
+
+        /* Popup content */
+        .popup-content {
+            background-color: #fefefe;
+            margin: 15% auto;
+            /* 15% from the top and centered */
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%;
+            /* Could be more or less, depending on screen size */
+        }
+
+        /* Close button */
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="popup" id="popup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup()">&times;</span>
+            <h2>Welcome!</h2>
+            <p>Thank you for visiting our website.</p>
+        </div>
+    </div>
+
+    <script>
+        // Get the popup
+        var popup = document.getElementById('popup');
+
+        // Show the popup when the page loads
+        window.onload = function () {
+            popup.style.display = 'block';
+        };
+
+        // Close the popup when the close button is clicked
+        function closePopup() {
+            popup.style.display = 'none';
+        }
+    </script>
+    <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <header class="header">
+            <a href="" class="logo">
+                <img src="Images/logo-removebg-preview.png" alt="">
+               
+            </a>
+
+            <div class="navbar">
+
+                <a class="" href="index.html">Home</a>
+                <a class="" href="profile.html">Business Profile</a>
+                <a class="" href="event.html">Events</a>
+                <a class="" href="catering.html">Catering</a>
+                <a class="" href="contact.html">Contact Us</a>
+
+            </div>
+        </header>
+        <div class="container">
+
+            <div class="content-1">
+                <h1 class="w-t-e">WELCOME TO EVENTOR</h1>
+                <p>We offer a wide range of services,from catering & decoration to entertainment and logistics.</p>
+                <button class="btn">Explore Now</button>
+            </div>
+            <div class="main">
+                <div class="content-2">
+                    <p>YOUR DREAM EVENT</p>
+                    <h1 class="expert">OUR EXPERTISE</h1>
+                    <p>Crafting unforgettable movements for wedding , birthday & corporate events.</p>
+                    <button class="btn">Explore Now</button>
+                </div>
+                <div class="content-3">
+                    <p>UNFORGETTABLE</p>
+                    <h1 class="c-e">CORPORATE EVENTS</h1>
+                    <P>seamless planning,creative concepts,flawless executions.Amazing experiences for every visions.
+                    </P>
+                    <button class="btn">Explore Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="content-4">
+            <h1 class="dream">YOUR DREAM START HERE</h1>
+            <P>Are you looking to turn your event dreams into a reality? Look no further than The Eventor Event
+                Planners.
+                With their unwavering commitment to excellence and attention to detail, Marcem has quickly become a
+                trusted name in the event planning industry. From concept to execution, Marcem Event Planners goes above
+                and beyond to ensure that your vision is brought to life in the most spectacular way possible. Whether
+                you’re planning a lavish wedding, a corporate conference, or a milestone celebration, their team of
+                experienced planners will work tirelessly to bring your event to life.
+
+                With a focus on creating unforgettable experiences, Marcem understands the importance of every detail.
+                They listen to your ideas, suggest innovative concepts, and execute flawlessly, leaving you with a
+                stress-free and truly remarkable event. No matter the size or scope of your event, Marcem Event Planners
+                has the expertise, creativity, and dedication to make it a resounding success. Don’t just dream about
+                your perfect event. let Marcem turn it into a reality that exceeds all your expectations</P>
+        </div>
+        <div class="item">
+            <div class="content-5">
+                <img src="Images/pic-1.jfif" alt="" width="100%" height="100%">
+            </div>
+            <div class="content-6">
+                <img src="Images/pic-2.jfif" alt="" width="100%" height="100%">
+            </div>
+            <div class="content-7">
+                <img src="Images/pic-3.jfif" alt="" width="100%" height="100%">
+            </div>
+        </div>
+        <div class="item-1">
+            <div class="content-8">
+                <h1 class="serve">OUR SERVICES </h1>
+                <p>The Eventor Event Planner Services is known for their seamless execution, making them a top choice
+                    for
+                    both
+                    small gatherings and large-scale events. Whether you’re organizing a corporate conference, a lavish
+                    wedding, or a memorable birthday celebration, The Eventor Event Planner Services has the expertise
+                    and
+                    passion to deliver a truly unforgettable experience. Their meticulous approach guarantees a flawless
+                    event that leaves a lasting impression on your guests.</p>
+            </div>
+            <div class="item-2">
+                <div class="content-9">
+                    <img src="Images/content-9.webp" alt="" width="100%" height="100%">
+                </div>
+                <div class="content-10">
+                    <img src="Images/content-10.webp" alt="" width="100%" height="100%">
+                </div>
+
+                <div class="content-11">
+                    <img src="Images/content-11.jpg" alt="" width="100%" height="100%">
+                </div>
+                <div class="content-12">
+                    <img src="Images/content-12.jpg" alt="" width="100%" height="100%">
+                </div>
+
+            </div>
+            <div class="item-4">
+                <div class="content-13">
+                    <img src="Images/wedding event.jpg" alt="" width="100%" height="100%">
+                    <div class="wedding">
+                        <h1>WEDDING EVENT</h1>
+                    </div>
+                </div>
+                <div class="content-14">
+                    <img src="Images/corporate event.jpg" alt="" width="100%" height="100%">
+                    <div class="corporate ">
+                        <h1>CORPORATE EVENT</h1>
+                    </div>
+                </div>
+                <div class="content-15">
+                    <img src="Images/Birthday event.jpg" alt="" width="100%" height="100%">
+                    <div class="birthday ">
+                        <h1>BIRTHDAY EVENT</h1>
+                    </div>
+                </div>
+                <div class="content-16">
+                    <img src="Images/general event.webp" alt="" width="100%" height="100%">
+                    <div class="general ">
+                        <h1>GENERAL EVENT</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item-5" style="margin-bottom: 100px;">
+            <div class="content-17">
+                <div class="planning">
+                    <h1>PLANNING</h1>
+                    <p>The eventor ensure a stress-free experience. Trust Marcem for seamless planning, making your
+                        event
+                        unforgettable.</p>
+                </div>
+            </div>
+            <div class="content-18">
+                <div class="decoration">
+                    <h1>DECORATION</h1>
+                    <p>The eventor specializes in event decorations, blending creativity and to transform spaces into
+                        enchanting
+                        environments.</p>
+                </div>
+            </div>
+            <div class="content-19">
+                <div class="venue">
+                    <h1>VENUE</h1>
+                    <p>The eventor excels in venue selection, offering diverse options to match your event's ambiance,
+                        size,
+                        and theme.</p>
+                </div>
+            </div>
+            <div class="content-20">
+                <div class="catering">
+                    <h1>CATERING</h1>
+                    <p>The eventor offers diverse catering options, ensuring culinary delights, tailored to clients'
+                        tastes
+                        and preferences.</p>
+                </div>
+            </div>
+
+        </div>
+        <div align="center" style="padding: 50px; background-color: antiquewhite; font-size: 20px;">
+            <h1>Why Choose The Eventor Event Planner </h1>
+            <p>It’s our commitment to excellence, attention to detail, and dedication to creating unforgettable
+                experiences.
+                We believe that every event should be a reflection of your unique style and personality. Our team brings
+                years of experience and expertise to the table. We have a deep understanding of the latest trends and
+                industry best practices, allowing us to create events that are not only visually stunning but also
+                seamlessly executed. </p> <br>
+
+            <p> From the moment you contact us to the final minutes of your event, we are there every step of the way,
+                ensuring that everything runs smoothly. At Marcem Event Planner, we are proud to have built a reputation
+                for
+                excellence. Our clients consistently rave about our professionalism, creativity, and ability to bring
+                their
+                visions to life. Whether it’s a wedding, corporate event, or social gathering, we treat each event with
+                the
+                same level of care and attention to detail.</p>
+        </div>
+        <div class="our-client">
+            <h1>OUR CLIENT</h1>
+        </div>
+        <div class="item-6">
+            <div class="events">
+                <h4>Events</h4>
+                <h1>850+</h1>
+            </div>
+            <div class="clients">
+                <h4>Happy Clients</h4>
+                <h1>450+</h1>
+            </div>
+            <div class="team">
+                <h4>Team Mambers</h4>
+                <h1>150+</h1>
+            </div>
+            <div class="ratio">
+                <h4>Satisfaction Rate</h4>
+                <h1>99.9%</h1>
+            </div>
+
+        </div>
+        <div class="work">
+            <div class="work-1"><img class="clint_img" src="Images/engro.png" alt=""></div>
+            <div class="work-1"><img class="clint_img" src="Images/defence officer.jfif" alt=""></div>
+            <div class="work-1"><img class="clint_img" src="Images/agha khan.png" alt=""></div>
+            <div class="work-1"><img class="clint_img" src="Images/cgs.jfif" alt=""></div>
+            <div class="work-1"><img class="clint_img" src="Images/golootlo.jfif" alt=""></div>
+            <div class="work-1"><img class="clint_img" src="Images/hiltan.png" alt=""></div>
+            <div class="work-1"><img class="clint_img" src="Images/shan.jfif" alt=""></div>
+            <div class="work-1"><img class="clint_img" src="Images/hilaal.png" alt=""></div>
+            <div class="work-1"><img class="clint_img" src="Images/martin dow.png" alt=""></div>
+            <div class="work-1"><img class="clint_img" src="Images/paracha.jfif" alt=""></div>
+            <div class="work-1"><img class="clint_img" src="Images/gfs.png" alt=""></div>
+            <div class="work-1"><img class="clint_img" src="Images/hamdard.jfif" alt=""></div>
+            <div class="work-1"><img class="clint_img" src="Images/obs.png" alt=""></div>
+            <div class="work-1"><img class="clint_img" src="Images/waterlink.png" alt=""></div>
+            <div class="work-1"><img class="clint_img" src="Images/kpt.jfif" alt=""></div>
+            <div class="work-1"><img class="clint_img" src="Images/burger.png" alt=""></div>
+            <div class="work-1"><img class="clint_img" src="Images/pharmvo.jfif" alt=""></div>
+            <div class="work-1"><img class="clint_img" src="Images/association.jfif" alt=""></div>
+        </div>
+        <footer>
+            <div class="content-21">
+                <h2>About us</h2>
+                <p>Plot # 15-C, mezzanine floor, 4 3rd Zamzama Commercial Lane, Zamzama Commercial Area Defence V
+                    Karachi,
+                </p><br><br>
+                <p>info@marcem.com.pk</p><br><br>
+                <p>+92 21 35301807</p>
+
+            </div>
+            <div class="item-7">
+                <div class="content-22">
+                    <img src="Images/logo-removebg-preview.png" alt="" height="100%" width="100%">
+                </div>
+                <div class="content-23">
+                    <p>The Eventor, an innovative platform, seamlessly integrates creative design and cutting-edge
+                        technology,
+                        delivering tailored solutions to elevate brands. Their expertise fosters impactful digital
+                        experiences and visually stunning aesthetics</p>
+                </div>
+
+            </div>
+            <div class="content-24">
+                <h2>Quick Links</h2>
+                <a href="index.html">HOME</a><br>
+                <a href="catering.html">CATERING</a><br>
+                <a href="contact.html">CONTACT</a><br>
+            </div>
+
+
+        </footer>
+    </body>
+
+</html>

@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Planner</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: #000;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .a:hover {
+            color: black;
+            background-color: rgb(240, 242, 245);
+            border-radius: 10px;
+            padding: 10px;
+        }
+
+        .header {
+
+            color: #fff;
+            padding: 10px;
+        }
+
+        .header .logo img {
+            max-width: 100%;
+            height: 100px;
+        }
+
+        .navbar {
+            text-align: center;
+
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .container {
+            text-align: center;
+            font-size: 20px;
+            padding: 20px;
+            margin: 0px 20px 0px 20px;
+        }
+
+        .image-container img {
+            width: 100%;
+            height: 400px;
+            margin-top: 120px;
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+
+
+        .main {
+            padding: 20px;
+        }
+
+        .heading_container {
+            color: rgb(161, 122, 15);
+
+        }
+
+
+        .img-box img {
+            max-width: 100%;
+            height: auto;
+
+        }
+
+        .c-s,
+        .O-M {
+            color: rgb(161, 122, 15);
+        }
+
+        .container1 {
+            display: flex;
+            justify-content: space-between;
+            border: 2px solid grey;
+            cursor: pointer;
+            opacity: 0.7;
+            transition: 0.6s;
+        }
+
+        .container1:hover {
+            opacity: 1;
+        }
+
+        .content {
+            flex: 1;
+            padding: 10px;
+            font-size: 20px;
+        }
+
+         .content img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .content p {
+            margin-top: 10px;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+
+
+        .footer_contact .social-links {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .footer_contact .social-link {
+            margin: 0 5px;
+        }
+
+        footer {
+            background-color: #000;
+            color: white;
+            margin-top: 20px;
+            display: flex;
+        }
+
+        .content-21 {
+            width: 25%;
+            margin: auto;
+            text-align: center;
+
+        }
+
+        .item-7 {
+            width: 50%;
+            margin: auto;
+
+        }
+
+        .content-22 {
+            width: 150px;
+            height: 150px;
+            margin: auto;
+            text-align: center;
+        }
+
+        .content-23 {
+            text-align: center;
+        }
+
+        .content-24 {
+            width: 25%;
+            text-align: center;
+            margin: auto;
+        }
+        @media (max-width:600px) {
+    .header {
+        background-color: firebrick;
+        color: black;
+
+    }
+    footer {
+        background-color: firebrick;
+        color: black;
+
+    }
+}
+    </style>
+
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="index.html" class="logo">
+            <img src="Images/logo.jfif" alt="">
+        </a>
+
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <a href="profile.html">Business Profile</a>
+            <a href="event.html">Events</a>
+            <a href="catering.html">Catering</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="content">
+            <div class="image-container">
+                <img src="pics/lo.png" alt="width 100%">
+            </div>
+        </div>
+        <hr>
+        <div class="container">
+            <!-- <div class="content"> -->
+            <h1 class="c-s">CATERING SERVICES​</h1>
+            <hr>
+            <p>
+                At The Eventers Event Planner, we elevate your events with a perfect fusion of delectable flavors,
+                impeccable presentation, and exceptional catering service. Our team of seasoned chefs crafts a
+                diverse menu that caters to every palate, ensuring a gladful experience that leaves a lasting
+                impression. Whether it’s a corporate gathering, wedding celebration, or a social soiree, we pride
+                ourselves on delivering a seamless and delightful dining experience.
+
+                <br> From meticulously planned menus that accommodate dietary preferences to impeccable execution on
+                the day of the event, we go above and beyond to exceed your expectations. With a commitment to
+                quality and a passion for culinary artistry, Marcem Event Planners is your trusted partner in
+                creating unforgettable moments through the art of exquisite catering. Let us bring culinary
+                excellence to your special occasions, making every event a feast for the senses.
+
+                <br> As a trusted event planner, we understands the importance of turning your vision into reality.
+                We collaborate closely with you to understand your preferences, themes, and objectives, ensuring
+                that our catering services align seamlessly with the overall ambiance of your event. Let us bring
+                culinary excellence to your special occasions, where every bite tells a story, and every event
+                becomes a celebration of taste, style, and unparalleled service.
+
+            </p>
+            <!-- </div> -->
+        </div>
+        <hr>
+        <h1 class="O-M">OUR MENU</h1>
+        <hr>
+        <div class="container1">
+            <div class="content">
+                <img src="pics/biryani.jpg" alt="Placeholder Image">
+                <p>Tasty Biryani of chiken,mutton & beef.</p>
+            </div>
+            <div class="content">
+                <img src="pics/kabab.jpg" alt="Placeholder Image">
+                <p>Tasty Kabab included chiken,mutton & beef with green chatni.</p>
+            </div>
+            <div class="content">
+                <img src="pics/karahi.jpg" alt="Placeholder Image">
+                <p>Tasty Karahi with green chatni.</p>
+            </div>
+            <div class="content">
+                <img src="pics/tikka.jpg" alt="Placeholder Image">
+                <p>Tasty Tikka with green chatni.</p>
+            </div>
+        </div>
+        <div class="container1">
+            <div class="content">
+                <img src="pics/cont1.jpg" alt="Placeholder Image">
+                <p>Tasty italian dishes Spaghetti Carbonara.</p>
+            </div>
+            <div class="content">
+                <img src="pics/cont2.jpg" alt="Placeholder Image">
+                <p>Tasty italian dishes Chicken Alfredo.</p>
+            </div>
+            <div class="content">
+                <img src="pics/conti.jpg" alt="Placeholder Image">
+                <p>Tasty italian dishes Pesto Pasta.</p>
+            </div>
+            <div class="content">
+                <img src="pics/chinese.jpg" alt="Placeholder Image">
+                <p>Tasty chinese dishes Manchurian (Chicken or Vegetable).</p>
+            </div>
+        </div>
+        <div class="container1">
+            <div class="content">
+                <img src="pics/italian.jpg" alt="Placeholder Image">
+                <p>Tasty chinese dishes Manchurian (Chicken or Vegetable).</p>
+            </div>
+            <div class="content">
+                <img src="pics/waldorf salad.jpg" alt="Placeholder Image">
+                <p>Tasty Waldorf Salad.</p>
+            </div>
+            <div class="content">
+                <img src="pics/grill chicken.jpg" alt="Placeholder Image">
+                <p>Tasty Grill Chiken Tikka.</p>
+            </div>
+            <div class="content">
+                <img src="pics/chick salad.jpg" alt="Placeholder Image">
+                <p>Tasty Chicken Caesar Salad</p>
+            </div>
+
+        </div>
+        <div class="container1">
+            <div class="content">
+                <img src="pics/des1.jpg" alt="Placeholder Image">
+                <p>Tasty chocolato Icecream with many flavors.</p>
+            </div>
+            <div class="content">
+                <img src="pics/des2.jpg" alt="Placeholder Image">
+                <p>Tasty chocolato Cake with many flavors.</p>
+            </div>
+            <div class="content">
+                <img src="pics/des3.jpg" alt="Placeholder Image">
+                <p>Tasty chocolato scope Icecream with many flavors.</p>
+            </div>
+            <div class="content">
+                <img src="pics/des4.jpg" alt="Placeholder Image">
+                <p>Tasty chocolato Cakes & Cookies with many flavors.</p>
+            </div>
+        </div>
+        <div class="container1">
+            <div class="content">
+                <img src="pics/des5.jpg" alt="Placeholder Image">
+                <p>Tasty chocolato Cakes with many flavors.</p>
+            </div>
+            <div class="content">
+                <img src="pics/des6.jpg" alt="Placeholder Image">
+                <p>Tasty Sweets with many flavors..</p>
+            </div>
+            <div class="content">
+                <img src="pics/Kheer.jpg" alt="Placeholder Image">
+                <p>Tasty Kheer with Badam & Zafran Special.</p>
+            </div>
+            <div class="content">
+                <img src="pics/gajar.jpg" alt="Placeholder Image">
+                <p>Tasty Gajar Ka Halwa special.</p>
+            </div>
+        </div>
+        <section class="contact_section">
+            <div class="container">
+                <div class="heading_container">
+                    <hr>
+                    <h2>
+                        Thank You For Visiting!
+                    </h2>
+                    <hr>
+                </div>
+            </div>
+        </section>
+        <div class="heading_container">
+            <footer>
+                <div class="content-21">
+                    <h2>About us</h2>
+                    <p>Plot # 15-C, mezzanine floor, 4 3rd Zamzama Commercial Lane, Zamzama Commercial Area Defence V
+                        Karachi,
+                    </p><br><br>
+                    <p>info@marcem.com.pk</p><br><br>
+                    <p>+92 21 35301807</p>
+
+                </div>
+                <div class="item-7">
+                    <div class="content-22">
+                        <img src="Images/logo-removebg-preview.png" alt="" height="100%" width="100%">
+                    </div>
+                    <div class="content-23">
+                        <p>The Eventor, an innovative platform, seamlessly integrates creative design and cutting-edge
+                            technology,
+                            delivering tailored solutions to elevate brands. Their expertise fosters impactful digital
+                            experiences and visually stunning aesthetics</p>
+                    </div>
+
+                </div>
+                <div class="content-24">
+                    <h2>Quick Links</h2>
+                    <a href="index.html">HOME</a><br>
+                    <a href="profile.html">WEDDING EVENT</a><br>
+                    <a href="catering.html">CATERING</a><br>
+                    <a href="contact.html">CONTACT</a><br>
+                </div>
+
+
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
